@@ -5,6 +5,7 @@ RewriteEngine On
 
 # Block Bad Bots [credits: www.botreports.com]
 SetEnvIfNoCase User-Agent ^$ bad_bot #leave this for blank user-agents
+SetEnvIfNoCase User-Agent "^Acunetix" bad_bot
 SetEnvIfNoCase User-Agent "^AITCSRobot/1.1" bad_bot
 SetEnvIfNoCase User-Agent "^Alexibot" bad_bot
 SetEnvIfNoCase User-Agent "^Aqua_Products" bad_bot
@@ -17,6 +18,7 @@ SetEnvIfNoCase User-Agent "^b2w/0.1" bad_bot
 SetEnvIfNoCase User-Agent "^BackDoorBot" bad_bot
 SetEnvIfNoCase User-Agent "^BackDoorBot/1.0" bad_bot
 SetEnvIfNoCase User-Agent "^BackRub/." bad_bot
+SetEnvIfNoCase User-Agent "^Baiduspider" bad_bot
 SetEnvIfNoCase User-Agent "^Baiduspider-video" bad_bot
 SetEnvIfNoCase User-Agent "^Big Brother" bad_bot
 SetEnvIfNoCase User-Agent "^Bizbot003" bad_bot
@@ -83,6 +85,7 @@ SetEnvIfNoCase User-Agent "^FairAd Client" bad_bot
 SetEnvIfNoCase User-Agent "^FelixIDE/1.0" bad_bot
 SetEnvIfNoCase User-Agent "^fido/0.9 Harvest/1.4.pl2" bad_bot
 SetEnvIfNoCase User-Agent "^Fish-Search-Robot" bad_bot
+SetEnvIfNoCase User-Agent "^FHscan" bad_bot
 SetEnvIfNoCase User-Agent "^Flaming AttackBot" bad_bot
 SetEnvIfNoCase User-Agent "^FlashGet" bad_bot
 SetEnvIfNoCase User-Agent "^FlashGet WebWasher 3.2" bad_bot
