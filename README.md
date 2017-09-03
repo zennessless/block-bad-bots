@@ -1,4 +1,4 @@
-# block-bad-bots
+# block ip addresses & bad bots
 Script &amp; settings to block website bad bots and site copiers.
 
 # install
