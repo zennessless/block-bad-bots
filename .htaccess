@@ -1,5 +1,11 @@
 # BEGIN Blocking
 
+# Block IP Addresses
+order allow,deny
+deny from 111.222.333.444
+deny from 222.333.4.*
+allow from all
+
 # Enable Rewrite Engine First
 RewriteEngine On
 
